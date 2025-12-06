@@ -1,5 +1,11 @@
 spring:
   application:
     name: ai-service
+
   config:
     import: optional:configserver:http://localhost:8888
+
+gemini:
+  api:
+    key: "AIzaSyAvEg6L_jGsmbqLHSpJczRpAQbvtG3Vlv8"
+    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
